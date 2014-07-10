@@ -17,6 +17,10 @@ gem 'bootstrap-will_paginate'
 gem 'font-awesome-sass'
 gem 'google-webfonts-rails'
 
+#group :doc do 
+#  gem 'sdoc', '0.3.20', require: false 
+#end
+
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails'
