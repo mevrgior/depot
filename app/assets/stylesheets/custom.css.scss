@@ -277,7 +277,7 @@ input {
 
 .slidewrapper {
   @include frameBorder;
-  margin: 0 30px;
+  //margin: 0 30px;
   top: 50px;
   position: relative;
 
@@ -289,7 +289,7 @@ input {
   //height: 300px;
   z-index: -1;
   position: relative;
-  padding: 100px 30px 40px;
+  padding: 100px 0 4.5em 0;
   color: $white;
 
 }
@@ -319,16 +319,41 @@ input {
 }
 
 .priceBox {
-  height: 50px;
+  height: 4em;
   background: $greylighter;
   margin: 10px 0;
+
+  &.row1 {
+    font-weight: 600;
+    font-size: 1em;
+    background: $greylight;
+    height: 5em;
+    padding-top: 1em;
+
+  }
+
+  &.row2 {
+    padding-top: 0.5em;
+
+  }
+
+  &.row3 {
+
+    padding-top: 1em;
+  }
+
+  &.row4 {
+
+    padding-top: 1em;
+  }
 
 }
 
 .fourth {
   @include box_shadow_bot;
   @include gradiant_blue;
-  padding-top: 95px;
+  padding-top: 3em;
+  padding-bottom: 2.5em;
   top:-1px;
   //height: 600px;
   z-index: -1;
