@@ -4,11 +4,16 @@
   <title>Depot | <%= yield(:title) %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= google_webfonts_init({ google: ['Open Sans:300,400', 'PT Sans Narrow'] }) %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<%= render 'layouts/header' %>
+
 <%= yield %>
+
+<%= render 'layouts/footer' %>
 
 </body>
 </html>

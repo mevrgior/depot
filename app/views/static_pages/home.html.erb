@@ -9,7 +9,7 @@
   <div class="first Box">
     <div class="container">
 
-      
+      <%= link_to "Los gehts!", contact_path, class: "btn btn-large btn-primary signup" %> 
 
       <!-- SLIDER -->
 
@@ -25,12 +25,12 @@
       <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <%= image_tag("slide1.png", alt: "Rails") %>
+              <%= image_tag("slide.png", alt: "Rails") %>
               <div class="carousel-caption">
               </div>
             </div>
             <div class="item">
-              <%= image_tag("slide1.png", alt: "Rails" ) %>
+              <%= image_tag("slide.png", alt: "Rails" ) %>
               <div class="carousel-caption">
                 
               </div>
@@ -126,6 +126,7 @@
       <p class="subHead">Sechs Gründe die Sie überzeugen werden.</p>
 
       <div class="row">
+        
         <div class="col-md-4">
           <div class="infoIcon">
             <%= icon('heart', '', class:'fa-2x') %>
@@ -135,18 +136,9 @@
             <p>
               Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.
             </p>
-          </div>
-
-          <div class="infoIcon">
-            <%= icon('globe', '', class:'fa-2x') %>
-          </div>
-          <div class="infoBox">
-            <h4>Alles online</h4>
-            <p>
-              Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.
-            </p>
-          </div>
+          </div>          
         </div>
+
         <div class="col-md-4">
           <div class="infoIcon">
               <%= icon('clock-o', '', class:'fa-2x') %>
@@ -156,14 +148,6 @@
             <p>
               Mit iDepot haben Sie rund um die Uhr Zugriff auf Ihre Dinge. Sie bestimmen, was Sie wann wieder haben möchten. Und wohin wir es liefern sollen. An Ihre Haustür. Oder ins Skigebiet. Oder an den Strand. Alles mit einem einfachen Klick.
             </p>
-          </div>
-
-          <div class="infoIcon">
-            <%= icon('credit-card', '', class:'fa-2x') %>
-          </div>
-          <div class="infoBox">
-            <h4>Geld Sparen</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l</p>
           </div>
 
         </div>
@@ -177,15 +161,42 @@
               Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.
             </p>
           </div>
+          
+        </div>
 
+      </div>
+
+      <div calss="row">
+        <div class="col-md-4">
+          <div class="infoIcon">
+            <%= icon('globe', '', class:'fa-2x') %>
+          </div>
+          <div class="infoBox">
+            <h4>Alles online</h4>
+            <p>
+              Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="infoIcon">
+            <%= icon('credit-card', '', class:'fa-2x') %>
+          </div>
+          <div class="infoBox">
+            <h4>Geld Sparen</h4>
+            <p>Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
           <div class="infoIcon">
             <%= icon('lock', '', class:'fa-2x') %>
           </div>
           <div class="infoBox">
             <h4>Sicherheit</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l</p>
+            <p>Service vom Abholen bis zum Zurückbringen. Sie müssen nie wieder in dunkle Lagerhallengehen oder schwere Dinge schleppen. Verwalten Sie Ihre Dinge ganz einfach online von Zuhause.</p>
           </div>
-          
         </div>
 
       </div>
