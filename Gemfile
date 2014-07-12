@@ -17,6 +17,18 @@ gem 'bootstrap-will_paginate'
 gem 'font-awesome-sass'
 gem 'google-webfonts-rails'
 
+gem 'devise'
+
+# https://github.com/CanCanCommunity/cancancan
+# https://github.com/plataformatec/devise
+# https://github.com/thoughtbot/paperclip | http://aws.amazon.com/de/free/
+# https://github.com/bbatsov/ruby-style-guide/blob/master/README.md
+# https://www.mandrill.com/
+
+
+# https://stripe.com/de
+
+
 #group :doc do 
 #  gem 'sdoc', '0.3.20', require: false 
 #end
