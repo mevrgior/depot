@@ -8,5 +8,6 @@ class User < ActiveRecord::Base
 
   def send_notification
     AdminMailer.new_user(self).deliver
+    UserMailer.welcome_user(self).deliver
   end
 end
